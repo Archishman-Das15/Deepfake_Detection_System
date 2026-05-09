@@ -54,6 +54,7 @@ An AI-powered web application that detects manipulated (deepfake) images and vid
 
 ## Project Structure
 
+```bash
 Deepfake-Detection-System/
 │
 ├── backend/
@@ -74,29 +75,51 @@ Deepfake-Detection-System/
 ├── requirements.txt
 ├── manage.py
 └── README.md
+```
+
 ---
 
 ## Installation
 
 ### 1. Clone the Repository
 
-
+```bash
 git clone https://github.com/your-username/deepfake-detection-system.git
 cd deepfake-detection-system
+```
 
 ### 2. Create Virtual Environment
+
+```bash
 python -m venv venv
+```
+
 ### 3. Activate Virtual Environment
+
 #### Windows
+```bash
 venv\Scripts\activate
+```
+
 #### Linux/macOS
+```bash
 source venv/bin/activate
+```
+
 ### 4. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ### 5. Run the Server
+
+```bash
 python manage.py runserver
+```
+
 ---
+
 ## Usage
 
 1. Open the web application in your browser.
